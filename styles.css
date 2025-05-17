@@ -1,5 +1,45 @@
+body {
+  font-family: Figtree;
+  background-color: hsl(47, 88%, 63%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  font-size: 16px;
+  text-align: left;
+  padding: 0 25px;
+}
+
+.image {
+  display: block;
+  padding: 15px;
+  border-radius: 35px;
+}
+
+.profile-pic {
+  display: block;
+  width: 30px;
+}
+
+.container {
+  border: 1px solid hsl(0, 0%, 7%);
+  border-radius: 35px;
+  box-shadow: 8px 8px 0;
+  background-color: hsl(0, 0%, 100%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  width: 360px;
+}
+
 .attribution {
-  font-size: 11px; text-align: center;
+  font-size: 11px;
+  text-align: center;
 }
 
 .attribution a {
